@@ -147,7 +147,7 @@ init_guc(void)
 	conf[i] = (GucVariable) {
 		.guc_name = "pg_stat_monitor.pgsm_query_shared_buffer",
 		.guc_desc = "Sets the maximum size of shared memory in (MB) used for query tracked by pg_stat_monitor.",
-		.guc_default = 20,
+		.guc_default = 1,
 		.guc_min = 1,
 		.guc_max = 10000,
 		.guc_restart = true,
