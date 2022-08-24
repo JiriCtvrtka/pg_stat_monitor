@@ -28,7 +28,7 @@
 
 PG_MODULE_MAGIC;
 
-#define BUILD_VERSION                   "2.0.0"
+#define BUILD_VERSION                   "2.0.0-beta1"
 #define PG_STAT_STATEMENTS_COLS         53  /* maximum of above */
 #define PGSM_TEXT_FILE                  "/tmp/pg_stat_monitor_query"
 
